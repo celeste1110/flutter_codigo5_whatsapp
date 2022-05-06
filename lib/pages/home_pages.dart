@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_codigo5_whatsapp/pages/chat_page.dart';
 
+import 'call_page.dart';
+
 class HomePage extends StatefulWidget {
   @override
   State<HomePage> createState() => _HomePageState();
@@ -66,7 +68,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
           Center(child: Text('Cámara')),
           ChatPage(),
           Center(child: Text('Status')),
-          Center(child: Text('Calls')),
+          CallPage(),
 
 
         ],
